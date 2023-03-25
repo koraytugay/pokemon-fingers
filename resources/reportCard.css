@@ -1,0 +1,27 @@
+#report-card-container {
+  height: 400px;
+  position: relative;
+}
+
+.report-card-row {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#new-game-button {
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+  width: 200px;
+  font-size: 1.2rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+}
+
+#new-game-button:hover, #new-game-button:focus {
+  background-color: rgb(0 100 0 / 0.15);
+}

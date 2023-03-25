@@ -1,0 +1,22 @@
+#user-input-container {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#user-input-text {
+  display: inline-block;
+  height: 40px;
+  font-size: 1.5rem;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  text-align: center;
+}
+
+#user-input-text:focus {
+  outline: none;
+}
+
+#user-input-text:disabled {
+  background: none;
+}

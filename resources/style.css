@@ -1,0 +1,56 @@
+/*outline: 1px solid limegreen;*/
+/*background: rgb(0 100 0 / 0.05);*/
+
+/*html, body {*/
+/*  height: 100%;*/
+/*}*/
+
+/*body {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*}*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 1.5rem;
+}
+
+#container {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+
+}
+
+#pokemon-image-even, #pokemon-image-odd {
+  margin: auto;
+  max-width: 350px;
+}
+
+
+#timer-span {
+  text-align: right;
+  padding-right: 87px;
+  margin-top: -28px;
+}
+
+.displayNone {
+  display: none;
+}
+
+.wrong {
+  color: crimson;
+}
+
+.correct {
+  color: green;
+}
