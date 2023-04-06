@@ -1,10 +1,11 @@
 #pokemon-names-div {
   overflow: hidden;
   height: 90px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding-top: 8px;
   padding-left: 2px;
+  text-align: center;
 }
 
 .pokemon-name {
