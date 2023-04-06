@@ -22,6 +22,7 @@ body {
   font-size: 1.5rem;
 }
 
+/* absolute centering: https://codepen.io/shshaw/details/kOxGQa */
 #container {
   width: 500px;
   height: 500px;
